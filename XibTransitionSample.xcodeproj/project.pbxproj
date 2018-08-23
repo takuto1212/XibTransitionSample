@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		DD6B5FEC212E56D50082CEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B5FEB212E56D50082CEAD /* AppDelegate.swift */; };
-		DD6B5FEE212E56D50082CEAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B5FED212E56D50082CEAD /* ViewController.swift */; };
-		DD6B5FF1212E56D50082CEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6B5FEF212E56D50082CEAD /* Main.storyboard */; };
 		DD6B5FF3212E56DC0082CEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6B5FF2212E56DC0082CEAD /* Assets.xcassets */; };
-		DD6B5FF6212E56DC0082CEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6B5FF4212E56DC0082CEAD /* LaunchScreen.storyboard */; };
+		DD6B6003212E57DC0082CEAD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B6001212E57DC0082CEAD /* FirstViewController.swift */; };
+		DD6B6004212E57DC0082CEAD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6B6002212E57DC0082CEAD /* FirstViewController.xib */; };
+		DD6B6007212E58670082CEAD /* SecondPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B6005212E58670082CEAD /* SecondPushViewController.swift */; };
+		DD6B6008212E58670082CEAD /* SecondPushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6B6006212E58670082CEAD /* SecondPushViewController.xib */; };
+		DD6B600B212E58980082CEAD /* SecondModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B6009212E58980082CEAD /* SecondModalViewController.swift */; };
+		DD6B600C212E58980082CEAD /* SecondModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6B600A212E58980082CEAD /* SecondModalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD6B5FE8212E56D50082CEAD /* XibTransition Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XibTransition Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6B5FE8212E56D50082CEAD /* XibTransitionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XibTransitionSample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B5FEB212E56D50082CEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD6B5FED212E56D50082CEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD6B5FF0212E56D50082CEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD6B5FF2212E56DC0082CEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD6B5FF5212E56DC0082CEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD6B5FF7212E56DC0082CEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6B6001212E57DC0082CEAD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DD6B6002212E57DC0082CEAD /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		DD6B6005212E58670082CEAD /* SecondPushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPushViewController.swift; sourceTree = "<group>"; };
+		DD6B6006212E58670082CEAD /* SecondPushViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondPushViewController.xib; sourceTree = "<group>"; };
+		DD6B6009212E58980082CEAD /* SecondModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModalViewController.swift; sourceTree = "<group>"; };
+		DD6B600A212E58980082CEAD /* SecondModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondModalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		DD6B5FDF212E56D50082CEAD = {
 			isa = PBXGroup;
 			children = (
-				DD6B5FEA212E56D50082CEAD /* XibTransition Sample */,
+				DD6B5FEA212E56D50082CEAD /* XibTransitionSample */,
 				DD6B5FE9212E56D50082CEAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,65 @@
 		DD6B5FE9212E56D50082CEAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD6B5FE8212E56D50082CEAD /* XibTransition Sample.app */,
+				DD6B5FE8212E56D50082CEAD /* XibTransitionSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD6B5FEA212E56D50082CEAD /* XibTransition Sample */ = {
+		DD6B5FEA212E56D50082CEAD /* XibTransitionSample */ = {
 			isa = PBXGroup;
 			children = (
 				DD6B5FEB212E56D50082CEAD /* AppDelegate.swift */,
-				DD6B5FED212E56D50082CEAD /* ViewController.swift */,
-				DD6B5FEF212E56D50082CEAD /* Main.storyboard */,
 				DD6B5FF2212E56DC0082CEAD /* Assets.xcassets */,
-				DD6B5FF4212E56DC0082CEAD /* LaunchScreen.storyboard */,
+				DD6B5FFD212E578C0082CEAD /* Controller */,
 				DD6B5FF7212E56DC0082CEAD /* Info.plist */,
 			);
-			path = "XibTransition Sample";
+			path = XibTransitionSample;
+			sourceTree = "<group>";
+		};
+		DD6B5FFD212E578C0082CEAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B5FFE212E579C0082CEAD /* First */,
+				DD6B6000212E57C20082CEAD /* SecondPush */,
+				DD6B5FFF212E57B10082CEAD /* SecondModal */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD6B5FFE212E579C0082CEAD /* First */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B6001212E57DC0082CEAD /* FirstViewController.swift */,
+				DD6B6002212E57DC0082CEAD /* FirstViewController.xib */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		DD6B5FFF212E57B10082CEAD /* SecondModal */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B6009212E58980082CEAD /* SecondModalViewController.swift */,
+				DD6B600A212E58980082CEAD /* SecondModalViewController.xib */,
+			);
+			path = SecondModal;
+			sourceTree = "<group>";
+		};
+		DD6B6000212E57C20082CEAD /* SecondPush */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B6005212E58670082CEAD /* SecondPushViewController.swift */,
+				DD6B6006212E58670082CEAD /* SecondPushViewController.xib */,
+			);
+			path = SecondPush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD6B5FE7212E56D50082CEAD /* XibTransition Sample */ = {
+		DD6B5FE7212E56D50082CEAD /* XibTransitionSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD6B5FFA212E56DC0082CEAD /* Build configuration list for PBXNativeTarget "XibTransition Sample" */;
+			buildConfigurationList = DD6B5FFA212E56DC0082CEAD /* Build configuration list for PBXNativeTarget "XibTransitionSample" */;
 			buildPhases = (
 				DD6B5FE4212E56D50082CEAD /* Sources */,
 				DD6B5FE5212E56D50082CEAD /* Frameworks */,
@@ -79,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = "XibTransition Sample";
-			productName = "XibTransition Sample";
-			productReference = DD6B5FE8212E56D50082CEAD /* XibTransition Sample.app */;
+			name = "XibTransitionSample";
+			productName = "XibTransitionSample";
+			productReference = DD6B5FE8212E56D50082CEAD /* XibTransitionSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD6B5FE3212E56D50082CEAD /* Build configuration list for PBXProject "XibTransition Sample" */;
+			buildConfigurationList = DD6B5FE3212E56D50082CEAD /* Build configuration list for PBXProject "XibTransitionSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD6B5FE7212E56D50082CEAD /* XibTransition Sample */,
+				DD6B5FE7212E56D50082CEAD /* XibTransitionSample */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6B5FF6212E56DC0082CEAD /* LaunchScreen.storyboard in Resources */,
+				DD6B6008212E58670082CEAD /* SecondPushViewController.xib in Resources */,
 				DD6B5FF3212E56DC0082CEAD /* Assets.xcassets in Resources */,
-				DD6B5FF1212E56D50082CEAD /* Main.storyboard in Resources */,
+				DD6B600C212E58980082CEAD /* SecondModalViewController.xib in Resources */,
+				DD6B6004212E57DC0082CEAD /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6B5FEE212E56D50082CEAD /* ViewController.swift in Sources */,
+				DD6B6007212E58670082CEAD /* SecondPushViewController.swift in Sources */,
 				DD6B5FEC212E56D50082CEAD /* AppDelegate.swift in Sources */,
+				DD6B600B212E58980082CEAD /* SecondModalViewController.swift in Sources */,
+				DD6B6003212E57DC0082CEAD /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DD6B5FEF212E56D50082CEAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD6B5FF0212E56D50082CEAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD6B5FF4212E56DC0082CEAD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD6B5FF5212E56DC0082CEAD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD6B5FF8212E56DC0082CEAD /* Debug */ = {
@@ -281,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "XibTransition Sample/Info.plist";
+				INFOPLIST_FILE = "XibTransitionSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "XibTransition Sample/Info.plist";
+				INFOPLIST_FILE = "XibTransitionSample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD6B5FE3212E56D50082CEAD /* Build configuration list for PBXProject "XibTransition Sample" */ = {
+		DD6B5FE3212E56D50082CEAD /* Build configuration list for PBXProject "XibTransitionSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD6B5FF8212E56DC0082CEAD /* Debug */,
@@ -322,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD6B5FFA212E56DC0082CEAD /* Build configuration list for PBXNativeTarget "XibTransition Sample" */ = {
+		DD6B5FFA212E56DC0082CEAD /* Build configuration list for PBXNativeTarget "XibTransitionSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD6B5FFB212E56DC0082CEAD /* Debug */,
